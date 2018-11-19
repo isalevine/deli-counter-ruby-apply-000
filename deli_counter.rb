@@ -19,7 +19,7 @@ katz_deli = []
 def take_a_number(katz_deli, katz_number)
   katz_deli << katz_number
   #katz_number = katz_deli.count
-  
+
   puts "Welcome. You are number #{katz_number}."
   katz_number = katz_number + 1
 end
@@ -27,6 +27,8 @@ end
 take_a_number(katz_deli, katz_number)
 take_a_number(katz_deli, katz_number)
 take_a_number(katz_deli, katz_number)
+
+puts katz_deli
 
 
 def now_serving(katz_deli)
