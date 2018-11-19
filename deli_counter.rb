@@ -22,6 +22,7 @@ def take_a_number(katz_deli)
 
   puts "Welcome. You are number #{@katz_number}."
   @katz_number = @katz_number + 1
+
 end
 
 take_a_number(katz_deli)
