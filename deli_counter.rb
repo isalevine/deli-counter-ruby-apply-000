@@ -24,9 +24,9 @@ def take_a_number(katz_deli)
   @katz_number = @katz_number + 1
 end
 
-take_a_number(katz_deli, katz_number)
-take_a_number(katz_deli, katz_number)
-take_a_number(katz_deli, katz_number)
+take_a_number(katz_deli)
+take_a_number(katz_deli)
+take_a_number(katz_deli)
 
 puts katz_deli
 
