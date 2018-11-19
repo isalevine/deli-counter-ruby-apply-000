@@ -13,15 +13,15 @@ def line(katz_deli)
   end
 end
 
-katz_number = 1
+@katz_number = 1
 katz_deli = []
 
-def take_a_number(katz_deli, katz_number)
-  katz_deli << katz_number
+def take_a_number(katz_deli)
+  katz_deli << @katz_number
   #katz_number = katz_deli.count
 
   puts "Welcome. You are number #{katz_number}."
-  katz_number = katz_number + 1
+  @katz_number = @katz_number + 1
 end
 
 take_a_number(katz_deli, katz_number)
