@@ -8,7 +8,7 @@ def line(katz_deli)
       output << "#{count}. #{name} "
       count = count + 1
     end
-    katz_deli
+    #katz_deli
     puts output.rstrip
   end
 end
