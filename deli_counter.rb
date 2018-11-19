@@ -20,7 +20,7 @@ def take_a_number(katz_deli)
   katz_deli << @katz_number
   #katz_number = katz_deli.count
 
-  puts "Welcome. You are number #{katz_number}."
+  puts "Welcome. You are number #{@katz_number}."
   @katz_number = @katz_number + 1
 end
 
